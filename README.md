@@ -1,15 +1,23 @@
-# IC�d�W��
+# IC卡上傳
 
-[java��(�������)](https://github.com/tsengeagle/JavaNhiIcUploadDemo)
+[java版(比較完整)](https://github.com/tsengeagle/JavaNhiIcUploadDemo)
 
-���.net framework 4.5.1
+本專案為測試健保新api的介接
 
-�ݭn�w�˶��ݦw���Ҳ�
+沒有經過任何優化，不適合直接用在生產環境
 
-## NuGet�̿�
+有任何建議歡迎發issue
 
-�ϥ�Newtonsoft.Json�B�zjson
+## 系統需求
 
-�ϥ�HttpClient(Microsoft.AspNet.WebApi.Client)�I�sapi
+基於.net framework 4.5.1
+
+需要安裝雲端安全模組
+
+## NuGet依賴
+
+使用Newtonsoft.Json處理json
+
+使用HttpClient(Microsoft.AspNet.WebApi.Client)呼叫api
 
 
